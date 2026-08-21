@@ -1,0 +1,14 @@
+package flamingo.aprendendo.basico.exercicios.estruturascondicionais;
+
+public class Exercicio04 {
+
+    static void main() {
+
+        double temperatura = 32;
+
+        if (temperatura > 30) {
+
+            System.out.println("Está muito quente hoje.");
+        }
+    }
+}

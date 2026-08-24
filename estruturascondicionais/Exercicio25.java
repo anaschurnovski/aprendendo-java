@@ -4,14 +4,22 @@ public class Exercicio25 {
 
     static void main() {
 
-       boolean temPermissao = false;
+       int xp = 10000;
+       String nivel;
 
-        if (temPermissao) {
+        if (xp <= 1000) {
+            nivel = "Iniciante";
 
-            System.out.println("Acesso liberado.");
+        } else if (xp <= 4999) {
+            nivel = "Intermediário";
+
+        } else if (xp <= 9999) {
+            nivel = "Avançado";
+
         } else {
-
-            System.out.println("Acesso negado.");
+            nivel = "Lendário";
         }
+
+        System.out.println(nivel);
     }
 }
